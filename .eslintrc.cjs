@@ -40,7 +40,7 @@ module.exports = {
             "beforeLineComment": true
          }
       ],
-      "no-console": ["warn"],
+      "no-console": ["warn", { allow: ["warn", "error"] }],
       "no-multiple-empty-lines": ["error", { "max": 1 }],
       "no-trailing-spaces": "error",
       "object-curly-spacing": ["error", "always"],
