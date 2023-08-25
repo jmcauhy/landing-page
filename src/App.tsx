@@ -1,9 +1,11 @@
 import { createGlobalStyle } from 'styled-components'
+import Routes from './routes'
 
 function App() {
    return (
       <>
          <GlobalStyle />
+         <Routes />
       </>
    )
 }
