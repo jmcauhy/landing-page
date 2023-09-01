@@ -1,10 +1,12 @@
 import Balancer from 'react-wrap-balancer'
-
+import Header from '../../components/Header'
 import * as S from './styles'
 
 function Home() {
    return (
       <S.Container>
+         <Header />
+
          <S.Content>
             <S.Video src="./assets/video.mp4" autoPlay muted loop />
             <S.HeadingWrapper>
