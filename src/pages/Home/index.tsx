@@ -1,5 +1,6 @@
 import Balancer from 'react-wrap-balancer'
 import Header from '../../components/Header'
+import Features from '../../components/Features'
 import * as S from './styles'
 
 function Home() {
@@ -23,6 +24,8 @@ function Home() {
             </S.ButtonsWrapper>
             <S.ArrowDownIcon />
          </S.Content>
+
+         <Features />
       </S.Container>
    )
 }
