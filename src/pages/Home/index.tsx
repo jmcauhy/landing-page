@@ -1,6 +1,8 @@
 import Balancer from 'react-wrap-balancer'
 import Header from '../../components/Header'
 import Features from '../../components/Features'
+import Block from '../../components/Block'
+import { blockOne, blockTwo, blockThree } from '../../services/mocks/block'
 import * as S from './styles'
 
 function Home() {
@@ -24,6 +26,10 @@ function Home() {
             </S.ButtonsWrapper>
             <S.ArrowDownIcon />
          </S.Content>
+
+         <Block {...blockOne} />
+         <Block {...blockTwo} />
+         <Block {...blockThree} />
 
          <Features />
       </S.Container>
