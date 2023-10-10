@@ -2,6 +2,7 @@ import Balancer from 'react-wrap-balancer'
 import Header from '../../components/Header'
 import Features from '../../components/Features'
 import Block from '../../components/Block'
+import Faq from '../../components/Faq'
 import PageUpButton from '../../components/ui/PageUpButton'
 import { blockOne, blockTwo, blockThree } from '../../services/mocks/block'
 import * as S from './styles'
@@ -33,6 +34,8 @@ function Home() {
          <Block {...blockThree} />
 
          <Features />
+
+         <Faq />
 
          <PageUpButton />
       </S.Container>
