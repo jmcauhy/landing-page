@@ -3,6 +3,7 @@ import Header from '../../components/Header'
 import Features from '../../components/Features'
 import Block from '../../components/Block'
 import Faq from '../../components/Faq'
+import Pricing from '../../components/Pricing'
 import PageUpButton from '../../components/ui/PageUpButton'
 import { blockOne, blockTwo, blockThree } from '../../services/mocks/block'
 import * as S from './styles'
@@ -36,6 +37,8 @@ function Home() {
          <Features />
 
          <Faq />
+
+         <Pricing />
 
          <PageUpButton />
       </S.Container>
